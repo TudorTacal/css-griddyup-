@@ -46,6 +46,16 @@
     .container {
       display: grid;
       grid-gap: 20px;
+      grid-template-areas:
+       "poop poop poop poop ham ham ham ham"
+       "poop poop poop poop ham ham ham ham"
+       "poop poop poop poop ham ham ham ham"
+       "poop poop poop poop ham ham ham ham"
+    }
+
+    .item3 {
+      grid-column: poop-start / ham-end;
+      grid-row-end: poop-end;
     }
   </style>
 </body>
